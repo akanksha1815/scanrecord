@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg' // served from public folder
+import viteLogo from './assets/vite.svg'  // ✅ Fixed: from src/assets, not public/
 import './App.css'
 
 function App() {
