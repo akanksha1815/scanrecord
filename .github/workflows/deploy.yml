@@ -9,10 +9,10 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      - name: Setup Node.js 
+      - name: Setup Node.js 20
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '20'
       -  name: Check Node version
          run: node --version
 
