@@ -11,6 +11,8 @@ function App() {
         <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+           {/* Reference vite.svg from public folder, no import needed */}
+          <img src="/vite.svg" alt="Vite logo" style={{ height: 40 }} />
       </div>
       <h1>React + Vite</h1>
       <div className="card">
